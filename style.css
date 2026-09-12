@@ -1,0 +1,43 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+
+}
+
+header{
+    display: flex;
+   justify-content:space-between;
+    align-items: center;
+    padding: 40px;
+}
+.logo{
+    font-size: 30px;
+}
+
+ul{
+   width: 40%;
+   list-style: nonw;
+   display: flex;
+   justify-content: space-evenly; 
+}
+
+ul a{
+    border-bottom: 2px solid transparent; 
+}
+
+ul a:hover {
+border-bottom-color: white;
+}
+
+h3{
+    color: white;
+    width: 550px;
+}
