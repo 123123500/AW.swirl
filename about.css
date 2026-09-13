@@ -1,3 +1,7 @@
+a{
+    color: white;
+    text-decoration: none;
+}
 body{
     background-image:url(background.jpg) ;
      background-repeat: no-repeat;
@@ -14,10 +18,39 @@ h3{
 
 h1{
     text-align:  center;
-    color:white
-    
+    color:white;
+    padding: -60rem;
+    margin-top:auto ;
 
  }
 h2{
     color: white;
+}
+footer{
+    margin-bottom: auto;
+    padding: 28rem;
+text-align: center;
+color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 40px;
+}
+.logo{
+    font-size: 40px;
+} 
+ul{
+width: 40%;
+list-style:nonw ;
+display: flex;
+justify-content: space-evenly;
+}
+
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a :hover{
+     border-bottom-color:white ;
 }
