@@ -40,3 +40,9 @@ gallery img{
     object-fit: cover;
     border-radius 8 px; ;
 }
+footer{
+    margin-bottom: auto;
+    padding: 1rem;
+text-align: center;
+color: white;
+}
